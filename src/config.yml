@@ -1,0 +1,10 @@
+# The level of speed players will get. Minimum 1.
+level: 1
+
+# Duration (in ticks) that the effect should last for. This will update every time the player moves so it should be
+# set to a fairly low value. If the effect keeps running out and re-activating whilst running on a path, increase this number.
+duration: 20
+
+# If set to true, it will remove any previous speed effect before applying the amplifier above.
+# If set to false, it will only apply if the player does not currently have a speed effect.
+remove-previous-speed-effect: false

@@ -1,0 +1,13 @@
+main: johnyuki.plugin.speedypaths.SpeedyPaths
+name: SpeedyPaths
+version: 1.0
+author: John_Yuki
+description: Gives a little more use to paths rather than them being purely aesthetic.
+commands:
+  speedypaths:
+    description: Base command for speedypaths.
+permissions:
+  speedypaths.use:
+    description: Lets players receive a speed boost from paths.
+  speedypaths.reload:
+    description: Reloads  config.
