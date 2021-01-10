@@ -1,4 +1,4 @@
-main: johnyuki.plugin.speedypaths.SpeedyPaths
+main: com.johnyuki.speedypaths.SpeedyPaths
 name: SpeedyPaths
 version: 1.0
 author: John_Yuki
@@ -10,4 +10,4 @@ permissions:
   speedypaths.use:
     description: Lets players receive a speed boost from paths.
   speedypaths.reload:
-    description: Reloads  config.
+    description: Reloads the  config.

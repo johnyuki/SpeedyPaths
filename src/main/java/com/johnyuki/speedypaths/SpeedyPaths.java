@@ -9,12 +9,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class SpeedyPaths extends JavaPlugin {
 
     public static JavaPlugin plugin;
+    public static final String pluginVersion = "2.0.0";
 
     @Override
     public void onEnable() {
         plugin = this;
         loadConfig();
-        VerifyConfig.verifyConfig();
         this.getCommand("speedypaths").setExecutor(new CommandManager());
         this.getServer().getPluginManager().registerEvents(new PlayerMove(), this);
         this.getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[SpeedyPaths]" + ChatColor.WHITE + " Enabled!");
@@ -26,6 +26,7 @@ public class SpeedyPaths extends JavaPlugin {
     }
 
     public static void loadConfig() {
+        VerifyConfig.checkConfigVersion();
         plugin.saveDefaultConfig();
     }
 }

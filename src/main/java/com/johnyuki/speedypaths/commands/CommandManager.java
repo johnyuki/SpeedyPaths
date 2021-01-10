@@ -21,11 +21,7 @@ public class CommandManager implements CommandExecutor {
                     if(args.length > 0) {
                         if(args[0].equalsIgnoreCase("reload")) {
                             SpeedyPaths.plugin.reloadConfig();
-                            if(VerifyConfig.verifyConfig()) {
-                                player.sendMessage(ChatColor.GREEN + "Config reloaded.");
-                            } else {
-                                player.sendMessage(ChatColor.YELLOW + "Config invalid. Reverted to default config.");
-                            }
+                            player.sendMessage(ChatColor.GREEN + "Config reloaded.");
                         }
                     } else {
                         player.sendMessage(
