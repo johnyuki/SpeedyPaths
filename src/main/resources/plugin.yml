@@ -1,6 +1,6 @@
 main: com.johnyuki.speedypaths.SpeedyPaths
 name: SpeedyPaths
-version: 2.0.0
+version: 2.0.1
 author: John_Yuki
 description: Gives a little more use to paths rather than them being purely aesthetic.
 commands:
