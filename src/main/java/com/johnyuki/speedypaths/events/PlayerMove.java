@@ -1,7 +1,5 @@
 package com.johnyuki.speedypaths.events;
 
-import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.block.BlockFace;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -12,7 +10,6 @@ import org.bukkit.potion.PotionEffectType;
 
 import com.johnyuki.speedypaths.SpeedyPaths;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class PlayerMove implements Listener {

@@ -1,25 +1,19 @@
-# Do not change the version.
-version: 2.0.0
-
 # The level of speed players will get. Minimum 1.
+# Default: 1
 level: 1
 
 # Duration (in ticks) that the effect should last for. This will update every time the player moves so it should be
 # set to a fairly low value. If the effect keeps running out and re-activating whilst running on a path, increase this number.
+# Default: 20 (1 second)
 duration: 20
 
 # If set to true, it will remove any previous speed effect before applying the amplifier above.
 # If set to false, it will only apply if the player does not currently have a speed effect.
+# Default: false
 remove-previous-speed-effect: false
 
 # List of blocks tha tthe speed effect will activate on. If you want to add more blocks to this list, write the name
 # of the block as it appears in this list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html.
+# Default: - GRASS_PATH
 blocks:
   - GRASS_PATH
-
-# If any value in this config is deemed invalid, the following default values are used:
-# level: 1
-# duration: 20
-# remove-previous-speed-effect: false
-# blocks:
-#  - GRASS_PATH

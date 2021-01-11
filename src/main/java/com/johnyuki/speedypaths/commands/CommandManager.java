@@ -6,7 +6,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import com.johnyuki.speedypaths.SpeedyPaths;
-import com.johnyuki.speedypaths.utils.VerifyConfig;
 import net.md_5.bungee.api.ChatColor;
 
 public class CommandManager implements CommandExecutor {
