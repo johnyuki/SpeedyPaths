@@ -21,7 +21,6 @@ public class PlayerMove implements Listener {
         int amplifier = SpeedyPaths.plugin.getConfig().getInt("level", 1) - 1;
         if(player.hasPermission("speedypaths.use")) {
             String currentBlock = player.getLocation().getBlock().getRelative(BlockFace.DOWN).getType().toString();
-            player.sendMessage(currentBlock);
             List<String> blockList = SpeedyPaths.plugin.getConfig().getStringList("blocks");
             if(blockList.contains(currentBlock)) {
                 if(player.getPotionEffect(PotionEffectType.SPEED) != null){

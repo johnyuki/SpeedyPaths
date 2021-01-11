@@ -1,4 +1,4 @@
-# The level of speed players will get. Minimum 1.
+# The level of speed players will get.
 # Default: 1
 level: 1
 
@@ -12,7 +12,7 @@ duration: 20
 # Default: false
 remove-previous-speed-effect: false
 
-# List of blocks tha tthe speed effect will activate on. If you want to add more blocks to this list, write the name
+# List of blocks that the speed effect will activate on. If you want to add more blocks to this list, write the name
 # of the block as it appears in this list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html.
 # Default: - GRASS_PATH
 blocks:
